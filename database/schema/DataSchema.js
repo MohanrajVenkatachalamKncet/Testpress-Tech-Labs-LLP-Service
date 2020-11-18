@@ -9,8 +9,7 @@ const Schema = Mongoose.Schema;
 const DATA_COLUMN = require("../column/DataColumn.js");
 
 const DataSchema = new Schema(
-    {   
-        
+    {    
         [DATA_COLUMN.ID]: {
             type: String,
             required: true,
@@ -48,5 +47,4 @@ const DataSchema = new Schema(
         timestamps: true
     }
 );
-
 module.exports = Mongoose.model("DataSchema", DataSchema);
