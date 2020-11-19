@@ -5,9 +5,8 @@ const Mongoose = require("mongoose");
 // Mongoose Schema Declaration
 const Schema = Mongoose.Schema;
 
-// Profile Screen Column
+// Data Column
 const DATA_COLUMN = require("../column/DataColumn.js");
-
 const DataSchema = new Schema(
     {    
         [DATA_COLUMN.ID]: {

@@ -1,6 +1,8 @@
-// Package
+//Import Package
 const Mongoose = require("mongoose");
 const Env = require("dotenv").config({ path: require("find-config")(".env") });
+
+//Database Connection
 exports.InitilizeDatabase = async () => {
     try {
         await Mongoose.connect(
