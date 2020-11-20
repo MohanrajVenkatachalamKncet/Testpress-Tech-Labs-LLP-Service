@@ -4,7 +4,7 @@ const DataColumn = require("../database/column/DataColumn.js");
 exports.createData = async (data) => {
     let insertMap = {
         [DataColumn.ID]: data.ID,
-        [DataColumn.TITLE]: data.TITLE,
+        // [DataColumn.TITLE]: data.TITLE,
         [DataColumn.QUESTION]: data.QUESTION,
         [DataColumn.OPTION1]: data.OPTION1,
         [DataColumn.OPTION2]: data.OPTION2,

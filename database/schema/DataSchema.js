@@ -13,10 +13,10 @@ const DataSchema = new Schema(
             type: String,
             required: true,
         },
-        [DATA_COLUMN.TITLE]: {
-            type: String,
-            required: true,
-        },
+        // [DATA_COLUMN.TITLE]: {
+        //     type: String,
+        //     required: true,
+        // },
         [DATA_COLUMN.QUESTION]: {
             type: String,
             required: true,

@@ -5,7 +5,7 @@ const Express = require("express");
 const Router = Express.Router();
 
 // imports
-const DataRouter = require("../router/DataRouter.js");
+const DataRouter = require("./router/DataRouter.js");
 Router.use(DataRouter);
 
 // Testing Router

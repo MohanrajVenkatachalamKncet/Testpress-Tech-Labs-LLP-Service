@@ -10,6 +10,8 @@ exports.InitilizeDatabase = async () => {
             {
                 useUnifiedTopology: true,
                 useNewUrlParser: true,
+                useFindAndModify: true,
+                useCreateIndex: true,
                 useFindAndModify: false,
             }
         );

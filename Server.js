@@ -7,7 +7,7 @@ const Server = Express();
 const CONTEXT_PATH = Env.parsed.CONTEXT_PATH;
 const PORT = Env.parsed.PORT || 5000;
 const RouterMux = require('./RouterMux.js');
-const Database = require('../database/Database.js');
+const Database = require('./database/Database');
 const cors=require('cors');
 
 // App Service Start Indication
